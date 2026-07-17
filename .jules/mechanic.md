@@ -1,0 +1,1 @@
+## 2024-05-13 - [CRITICAL] **Error:** 'None' is not indexable **Root Cause:** mypy strict null checks failed due to self.org assigned as None, but accessed later as Dict. **Resolution:** explicitly typed self.org as Optional[Dict]
