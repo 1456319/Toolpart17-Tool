@@ -1,4 +1,4 @@
-# 🔐 SheerID Verification Tool
+# 🔐 SheerID Verification Tool for Submitting Your ID Seamlessly (ID REQUIRED)
 
 [![GitHub Stars](https://img.shields.io/github/stars/ThanhNguyxn/SheerID-Verification-Tool?style=social)](https://github.com/ThanhNguyxn/SheerID-Verification-Tool/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
