@@ -736,7 +736,7 @@ class GeminiVerifier:
             self.client = httpx.Client(timeout=30, proxy=proxy_url)
             self.lib_name = "httpx"
 
-        self.org = None
+        self.org: Optional[Dict] = None
 
     def __del__(self):
         if hasattr(self, "client"):

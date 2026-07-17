@@ -775,7 +775,7 @@ class SpotifyVerifier:
             self.lib_name = "httpx"
             print("[WARN] ❌ Using httpx without TLS spoofing - HIGH detection risk!")
 
-        self.org = None
+        self.org: Optional[Dict] = None
 
     def __del__(self):
         if hasattr(self, "client"):
